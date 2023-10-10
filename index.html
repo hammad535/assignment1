@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        
+        
+       
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-div">
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <input id="searchInput" class="search-input" type="text" placeholder="">
+                <button id="clearButton" class="clear-button">Clear</button>
+
+            </div>
+        </div>
+        <div class="second-div">
+            
+            <div class="profile-container">
+                <div class="profile-pic">
+                    <img src="images\photosnap.svg" alt="Profile Pic">
+                </div>
+                <div class="profile-info">
+                    <p><span class="r">Photosnap</span> <span class="new">NEW!</span><span class="featured">FEATURED</span></p>
+                    <p class="senior">Senior Frontend Developer</p>
+                    <p><span class="day">1d ago</span><span class="job">Full time</span> <span class="c">USA Only</span></p>
+                </div>
+                <div class="skills">
+                  <p class="T"><span>Frontend</span><span> Senior</span> <span>HTML</span> <span>CSS</span> <span>JavaScript</span></p>
+                </div>
+                 <button class="delete-button">Delete</button>
+            </div>
+        </div>
+   
+    
+      <button id="addButton" style="position: fixed; bottom: 20px; right: 20px;">+</button>
+
+      <div id="formContainer" style="display: none ;">
+        <input type="text" id="companyName" placeholder="Company Name"><br>
+        <input type="text" id="jobTitle" placeholder="Job Title"><br>
+        <input type="text" id="duration" placeholder="Duration"><br>
+        <input type="text" id="jobType" placeholder="Job Type"><br>
+        <input type="text" id="country" placeholder="Country"><br>
+        <input type="text" id="skills" placeholder="Skills"><br>
+        <button id="submitForm">Submit</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>   
